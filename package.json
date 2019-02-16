@@ -1,0 +1,29 @@
+{
+  "name": "help-desk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "config": "^3.0.1",
+    "dotenv": "^6.2.0",
+    "handlebars": "^4.1.0",
+    "hapi": "^18.1.0",
+    "inert": "^5.1.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.3",
+    "sequelize": "^4.42.0",
+    "showdown": "^1.9.0",
+    "sqlite3": "^4.0.6",
+    "vision": "^5.4.4"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}

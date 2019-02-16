@@ -1,0 +1,32 @@
+.home {
+    .category-header {
+        font-size:22pt;
+        font-weight:200;
+        margin-bottom:10px;
+    }
+    .home-content {
+        max-width:100%;
+        margin-right:370px;
+        .category {
+            background: $light-background;
+            margin:10px;
+            padding:10px;
+            border-radius:3px;
+            .category-title {
+                font-weight:bold;
+                color:white;
+                margin-bottom:5px;
+                font-size:14pt;
+                a {
+                    color:inherit;
+                }
+            }
+            .category-sections {
+                margin:5px;
+            }
+            .more-sections {
+                font-weight:bold;
+            }
+        }
+    }
+}

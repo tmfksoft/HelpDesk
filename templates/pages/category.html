@@ -1,0 +1,22 @@
+<div class="category">
+    <div class="crumbs">
+        <a href="/">Home</a>
+    </div>
+    <div class="category-header">{{category.title}}</div>
+    <div class="category-summary">{{category.summary}}</div>
+    <hr>
+    <div class="category-content">
+        {{# each category.sections as |section|}}
+            <div class="section">
+                <div class="section-title"><a href="/section/{{section.slug}}">{{section.title}}</a></div>
+                <div class="section-articles">
+                    {{# each section.articles as |article|}}
+                        <div class="article-title"><a href="/article/{{article.slug}}">{{article.title}}</a></div>
+                    {{/each}}
+                </div>
+                <div class="more-articles"><a href="/section/{{section.slug}}">&raquo; See All Articles in {{section.title}}</a></div>
+            </div>
+        {{/each}}
+    </div>
+    <div class="push"></div>
+</div>

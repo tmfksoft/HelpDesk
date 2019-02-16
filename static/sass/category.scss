@@ -1,0 +1,37 @@
+.category {
+    .category-header {
+        font-size:22pt;
+        font-weight:200;
+        margin-bottom:10px;
+    }
+    hr {
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+    .category-content {
+        max-width:100%;
+        .section {
+            background: $light-background;
+            margin:10px;
+            padding:10px;
+            width:45%;
+            border-radius:3px;
+            display:inline-block;
+            .section-title {
+                font-weight:bold;
+                color:white;
+                margin-bottom:5px;
+                font-size:14pt;
+                a {
+                    color:inherit;
+                }
+            }
+            .section-articles {
+                margin:5px;
+            }
+            .more-articles {
+                font-weight:bold;
+            }
+        }
+    }
+}

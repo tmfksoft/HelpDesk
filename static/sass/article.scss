@@ -1,0 +1,38 @@
+.article {
+    .article-header {
+        font-size:22pt;
+        font-weight:200;
+        margin-bottom:10px;
+    }
+    .article-content {
+        max-width:100%;
+        margin-right:370px;
+    }
+    .article-footer {
+        max-width:100%;
+        margin-right:370px;
+
+        margin-top:20px;
+        padding:10px;
+        background-color:$light-background;
+
+        .article-author {
+            display:flex;
+            .avatar {
+                width:48px;
+                height:48px;
+                overflow:hidden;
+                border-radius:100%;
+                img {
+                    width:100%;
+                    height:100%;
+                }
+            }
+            .name {
+                flex:1;
+                margin-left:15px;
+                font-size:13pt;
+            }
+        }
+    }
+}

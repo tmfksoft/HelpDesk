@@ -1,0 +1,17 @@
+<div class="home">
+    {{> sidebar}}
+    <div class="home-content">
+        {{# each categories as |category|}}
+            <div class="category">
+                <div class="category-title"><a href="/category/{{category.slug}}">{{category.title}}</a></div>
+                <div class="category-summary">{{category.summary}}</div>
+                <div class="category-sections">
+                    {{# each category.sections as |section|}}
+                        <div class="section-title"><a href="/section/{{section.slug}}">{{section.title}}</a></div>
+                    {{/each}}
+                </div>
+            </div>
+        {{/each}}
+    </div>
+    <div class="push"></div>
+</div>

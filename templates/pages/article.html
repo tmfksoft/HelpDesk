@@ -1,0 +1,17 @@
+<div class="article">
+    <div class="crumbs">
+        <a href="/">Home</a> &raquo; <a href="/category/{{article.section.category.slug}}">{{article.section.category.slug}}</a> &raquo; <a href="/section/{{article.section.slug}}">{{article.section.title}}</a>
+    </div>
+    {{> sidebar}}
+    <div class="article-header">{{article.title}}</div>
+    <div class="article-content markdown">{{{article.markdown}}}</div>
+    <div class="article-footer">
+        <div class="article-author">
+            <div class="avatar"><img src="/static/img/default_avatar.png"/></div>
+            <div class="name">John Doe</div>
+        </div>
+        <div class="article-social">
+        </div>
+    </div>
+    <div class="push"></div>
+</div>

@@ -1,0 +1,17 @@
+<div class="section">
+    <div class="crumbs">
+        <a href="/">Home</a> &raquo; <a href="/category/{{section.category.slug}}">{{section.category.title}}</a>
+    </div>
+    <div class="section-header">{{section.title}}</div>
+    <div class="section-summary">{{section.summary}}</div>
+    <hr>
+    <div class="section-content">
+        {{# each section.articles as |article|}}
+            <div class="article">
+                <div class="article-title"><a href="/article/{{article.slug}}">{{article.title}}</a></div>
+                <div class="article-summary">{{article.summary}}</div>
+            </div>
+        {{/each}}
+    </div>
+    <div class="push"></div>
+</div>

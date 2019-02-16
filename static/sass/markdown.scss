@@ -1,0 +1,25 @@
+// Handles formatting on articles.
+.markdown {
+    table {
+        width:100%;
+        border-spacing:0;
+        border-left:solid 1px grey;
+        border-top:solid 1px grey;
+
+        th {
+            background-color:#111;
+        }
+        td, th {
+            border-right:solid 1px grey;
+            border-bottom:solid 1px grey;
+            padding:5px;
+        }
+    }
+    blockquote {
+        background:#111;
+        padding-left:16px;
+        padding-right:16px;
+        border:solid 1px grey;
+        border-radius:3px;
+    }
+}
